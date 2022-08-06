@@ -18,6 +18,7 @@
   --color-primary-variant: #0000CD;
   --color-main: #FFFFFF;
   --color-light: #E6E6FA;
+
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -25,12 +26,12 @@
   --transition: all 400ms ease;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
