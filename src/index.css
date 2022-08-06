@@ -19,8 +19,8 @@
   --color-main: #FFFFFF;
   --color-light: #E6E6FA;
   --container-width-lg: 75%;
-  --container-width-md: 75%;
-  --container-width-sm: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 
   --transition: all 400ms ease;
 }
@@ -108,4 +108,31 @@ img {
   display: block;
   width: 100%;
   object-fit: cover; /* The object-fit property specifies how the element should fit the container. */
+}
+
+/* ===========MEDIA QUERIES (MEDIUM DEVICES)=========== */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
+}
+
+/* ===========MEDIA QUERIES (SMALL DEVICES)=========== */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  .section {
+    margin-top: 5rem;
+  }
+
+  .section > h2 {
+    margin-bottom: 2rem;
+  }
 }
