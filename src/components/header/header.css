@@ -63,12 +63,17 @@ header {
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)=========== */
 
 @media screen and (max-width: 1024px) {
-
+  header {
+    height: 100vh;
+  }
 }
 
 /* ===========MEDIA QUERIES (SMALL DEVICES)=========== */
 
 @media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
   .header_socials,
   .scrooll_down {
     display: none;
