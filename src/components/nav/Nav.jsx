@@ -9,11 +9,11 @@ import { MdOutlineContactMail } from 'react-icons/md';
 const Nav = () => {
   return (
     <nav>
-      <a href='#'><ImHome size={'2rem'} /></a>
-      <a href='#about'><FaUserSecret size={'2rem'} /></a>
-      <a href='#experience'><MdWorkOutline size={'2rem'} /></a>
-      <a href='#services'><RiServiceLine size={'2rem'} /></a>
-      <a href='#contact'><MdOutlineContactMail size={'2rem'} /></a>
+      <a href='#'><ImHome size={'1.5rem'} /></a>
+      <a href='#about'><FaUserSecret size={'1.5rem'} /></a>
+      <a href='#experience'><MdWorkOutline size={'1.5rem'} /></a>
+      <a href='#services'><RiServiceLine size={'1.5rem'} /></a>
+      <a href='#contact'><MdOutlineContactMail size={'1.5rem'} /></a>
     </nav >
   )
 }

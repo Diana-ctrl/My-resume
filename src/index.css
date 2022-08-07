@@ -13,9 +13,9 @@
 
 :root { /* creating a variable */
   --color-bg: radial-gradient(at bottom, #F8F8FF, #6A5ACD);
-  --color-bg-variant: #1E90FF;
+  --color-bg-variant: #695ea5;
   --color-primary: #B0E0E6;
-  --color-primary-variant: #0000CD;
+  --color-primary-variant: #483D8B;
   --color-main: #FFFFFF;
   --color-light: #E6E6FA;
 
@@ -61,9 +61,10 @@ section {
   height: 100vh;
 }
 
-section > h2, section > h5 {
+section > h2, section > h5, section > h1 {
   text-align: center;
   color: var(--color-light);
+  margin-bottom: 1rem;
 }
 
 section > h2 {
@@ -85,6 +86,7 @@ a:hover {
 }
 
 .btn {
+  background: var(--color-primary-variant);
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
