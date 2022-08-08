@@ -62,7 +62,7 @@ section {
 
 section > h2, section > h5, section > h1 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-primary-variant);
   margin-bottom: 1rem;
 }
 

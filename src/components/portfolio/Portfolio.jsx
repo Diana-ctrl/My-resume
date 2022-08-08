@@ -52,24 +52,24 @@ const Portfolio = () => {
       <h5>
         My resent work
       </h5>
-      <h2>
+      <h1>
         Portfolio
-      </h2>
+      </h1>
       <div className='container portfolio_container'>
-        {data.map(el =>
-          <article className='portfolio_item'>
+        {data.map(({ title, demo, github, img }, index) =>
+          <article className='portfolio_item' key={index}>
             <div className='portfolio_item-img'>
-              <img src={el.img} alt='Img1' />
+              <img src={img} alt='Img1' />
             </div>
             <h3>
-              {el.title}
+              {title}
             </h3>
             <div className='portfolio_item-cta'>
-              <a href={el.github} className='btn' target={'__blank'}>
+              <a href={github} className='btn' target={'__blank'}>
                 Github
               </a>
-              {el.demo &&
-                <a href={el.demo} className='btn btn-primary' target={'__blank'}>
+              {demo &&
+                <a href={demo} className='btn btn-primary' target={'__blank'}>
                   Live demo
                 </a>
               }
