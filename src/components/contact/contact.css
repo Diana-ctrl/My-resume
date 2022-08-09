@@ -48,6 +48,14 @@ input, textarea {
   resize: none;
   color: var(--color-primary-variant);
 }
+textarea::placeholder {
+  color: var(--color-bg-variant);
+  opacity: 0.5;
+}
+input::placeholder {
+  color: var(--color-bg-variant);
+  opacity: 0.5;
+}
 
 @media screen and (max-width: 1024px) {
   .contact_container {
