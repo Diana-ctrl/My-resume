@@ -26,7 +26,7 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section>
+    <section id='testimonials'>
       <h5>Reviews from colleaguess</h5>
       <h1>Testimonials</h1>
 
