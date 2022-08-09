@@ -19,13 +19,13 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a href='https://www.instagram.com/diana_lyah/'>
+        <a href='https://www.instagram.com/diana_lyah/' target={'_blank'}>
           <GrInstagram size={'2rem'} />
         </a>
-        <a href='https://www.linkedin.com/in/diana-lyah-7332641a2/'>
+        <a href='https://www.linkedin.com/in/diana-lyah-7332641a2/' target={'_blank'}>
           <BsLinkedin size={'2rem'} />
         </a>
-        <a href='https://github.com/Diana-ctrl'>
+        <a href='https://github.com/Diana-ctrl' target={'_blank'}>
           <FaGithub size={'2rem'} />
         </a>
       </div>
