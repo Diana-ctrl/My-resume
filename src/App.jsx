@@ -6,8 +6,8 @@ import Experience from "../src/components/experience/Experience";
 import Services from "../src/components/services/Services";
 import Testimonials from "../src/components/testimonials/Testimonials";
 import Contact from "../src/components/contact/Contact";
-import Footer from "../src/components/footer/Footer";
 import Portfolio from "../src/components/portfolio/Portfolio";
+import Footer from "../src/components/footer/Footer";
 
 export const App = () => {
   return (
